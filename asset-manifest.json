@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/jazwang/static/css/main.ce6f1dbc.chunk.css",
+    "main.js": "/jazwang/static/js/main.c5db09d1.chunk.js",
+    "main.js.map": "/jazwang/static/js/main.c5db09d1.chunk.js.map",
+    "runtime-main.js": "/jazwang/static/js/runtime-main.3b7c41bb.js",
+    "runtime-main.js.map": "/jazwang/static/js/runtime-main.3b7c41bb.js.map",
+    "static/js/2.1c4c3fc1.chunk.js": "/jazwang/static/js/2.1c4c3fc1.chunk.js",
+    "static/js/2.1c4c3fc1.chunk.js.map": "/jazwang/static/js/2.1c4c3fc1.chunk.js.map",
+    "index.html": "/jazwang/index.html",
+    "static/css/main.ce6f1dbc.chunk.css.map": "/jazwang/static/css/main.ce6f1dbc.chunk.css.map",
+    "static/js/2.1c4c3fc1.chunk.js.LICENSE.txt": "/jazwang/static/js/2.1c4c3fc1.chunk.js.LICENSE.txt",
+    "static/media/jw.39f74571.png": "/jazwang/static/media/jw.39f74571.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b7c41bb.js",
+    "static/js/2.1c4c3fc1.chunk.js",
+    "static/css/main.ce6f1dbc.chunk.css",
+    "static/js/main.c5db09d1.chunk.js"
+  ]
+}
