@@ -1,10 +1,10 @@
 import React from 'react';
-import ThemePage from '../images/jz.png';
+import ThemePage from '../images/jw.png';
 
 const BackgroundTheme = (props) => {
     
     return (
-        <img src={ThemePage} />
+        <img src={ThemePage} max-width="100%" max-height="100%" style={{alignContent: "center"}} />
     );
 };
 
