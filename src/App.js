@@ -4,9 +4,9 @@ import BackgroundTheme from './components/BackgroundTheme';
 import Navbar from './components/navbar/NavBar';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import ContactUs from './components/pages/ContactUs';
+import Video from './components/pages/Video';
+import Blog from './components/pages/Blog';
+import Contact from './components/pages/Contact';
 import About from './components/pages/About';
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
-          <Route path='/contact-us' component={ContactUs} />
+          <Route path='/video' component={Video} />
+          <Route path='/blog' component={Blog} />
+          <Route path='/contact' component={Contact} />
           <Route path='/about' component={About} />
         </Switch>
     </Router>

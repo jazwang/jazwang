@@ -18,9 +18,9 @@
 }
 
 .home,
-.services,
-.products,
-.contact-us,
+.video,
+.blog,
+.contact,
 .about {
   display: flex;
   height: 90vh;
@@ -38,7 +38,7 @@
   font-size: 100px;
 }
 
-.services {
+.video {
   /* background-image: url('./images/img-2.jpg'); */
   background-position: center;
   background-size: cover;
@@ -47,7 +47,7 @@
   font-size: 100px;
 }
 
-.products {
+.blog {
   /* background-image: url('./images/img-3.jpg'); */
   background-position: center;
   background-size: fill;
@@ -56,7 +56,7 @@
   font-size: 100px;
 }
 
-.contact-us {
+.contact {
   /* background-image: url('./images/img-4.jpg'); */
   background-position: center;
   background-size: cover;
