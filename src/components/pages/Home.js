@@ -5,7 +5,8 @@ import BackgroundTheme from '../BackgroundTheme';
 export default function Home() {
   return (
     <>
-      <BackgroundTheme />
+      {/* <BackgroundTheme /> */}
+      <h1 className='about'>Jaz Wang</h1>;
     </>
   );
 }

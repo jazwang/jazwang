@@ -2,6 +2,7 @@
   "name": "jazwang",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jazwang.github.io/jazwang",
   "dependencies": {
     "@babel/core": "^7.12.9",
     "@testing-library/jest-dom": "^5.11.4",
@@ -14,6 +15,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,6 +37,7 @@
     ]
   },
   "devDependencies": {
-    "babel-plugin-react-html-attrs": "^3.0.5"
+    "babel-plugin-react-html-attrs": "^3.0.5",
+    "gh-pages": "^3.1.0"
   }
 }
