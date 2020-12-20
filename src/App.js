@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import BackgroundTheme from './components/BackgroundTheme';
 import Navbar from './components/navbar/NavBar';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
@@ -12,9 +11,6 @@ import About from './components/pages/About';
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <BackgroundTheme />
-      </header> */}
       <Router>
         <Navbar />
         <Switch>
