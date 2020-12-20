@@ -50,6 +50,17 @@ a:hover {
   color: #B06C56;
 }
 
+img {
+  max-width: 25%;
+  align-content: center;
+}
+
+@media screen and (max-width: 437px) {
+  img{
+    max-width: 75%;
+  }
+}
+
 .page {
   padding: 2.5vh 5vh;
   min-height: 66vh;
@@ -73,5 +84,6 @@ a:hover {
   color: #fff;
   font-size: 100px;
 }
+
 
 
