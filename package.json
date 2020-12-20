@@ -2,7 +2,7 @@
   "name": "jazwang",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jazwang.github.io/home",
+  "homepage": "http://jazwang.github.io/jazwang",
   "dependencies": {
     "@babel/core": "^7.12.9",
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
