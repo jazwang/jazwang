@@ -1,5 +1,5 @@
 import React from 'react';
-import ThemePage from '../images/jw.png';
+import ThemePage from '../images/web-logo.png';
 
 const BackgroundTheme = (props) => {
     
@@ -9,6 +9,3 @@ const BackgroundTheme = (props) => {
 };
 
 export default BackgroundTheme;
-
-// const BackgroundImg = styled.img`
-//     height: 60

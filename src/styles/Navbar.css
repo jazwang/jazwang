@@ -26,7 +26,7 @@
     grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     list-style: none;
-    text-align: center;
+    text-align: right;
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
@@ -36,12 +36,15 @@
     display: flex;
     align-items: center;
     height: 80px;
+    font-weight: normal;
   }
   
   .nav-links {
     color: white;
+    opacity: 1;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    font-weight: normal;
   }
   
   .nav-links:hover {
@@ -81,22 +84,22 @@
     }
   
     .nav-menu.active {
-      background: #cfc3ba;
+      background: #e1d6d6;
       left: 0;
-      opacity: 1;
+      opacity: 0.75;
       transition: all 0.5s ease;
       z-index: 1;
     }
   
     .nav-links {
-      text-align: center;
+      text-align: left;
       padding: 2rem;
       width: 100%;
       display: table;
     }
   
     .nav-links:hover {
-      background-color: #cfc3ba;
+      /* background-color: #cfc3ba; */
       border-radius: 0;
     }
   
@@ -129,15 +132,17 @@
       margin: 2rem auto;
       border-radius: 4px;
       width: 80%;
-      background: #cfc3ba;
+      background: #e1d6d6;
       text-decoration: none;
-      color: #fff;
+      color: white;
+      opacity: 1;
       font-size: 1.5rem;
     }
   
     .nav-links-mobile:hover {
       background: #fff;
-      color: #cfc3ba;
+      color: #e1d6d6;
       transition: 250ms;
     }
   }
+  
