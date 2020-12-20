@@ -1,13 +1,10 @@
 import React from 'react';
 import ThemePage from '../images/web-logo.png';
 
-const BackgroundTheme = (props) => {
+export default function BackgroundTheme() {
     
     return (
-        <div>
-        <img src={ThemePage} max-width="100%" max-height="100%" style={{alignContent: "center"}} />
-        </div>
+        <img src={ThemePage} height="100%" width="100%" style={{alignContent: "center"}} />
     );
-};
+}
 
-export default BackgroundTheme;
