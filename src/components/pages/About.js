@@ -35,7 +35,7 @@ export default function About() {
             <br/>
 
             If you would like to message me, feel me to do so
-            at <a href="mailto:codingwithjaz@gmail.com">  Jaz Wang</a>.
+            at <a href="mailto:codingwithjaz@gmail.com"> here</a>.
             Hoping to hear from you!
             <br/>
             <br/>
