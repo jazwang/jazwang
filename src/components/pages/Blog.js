@@ -1,6 +1,6 @@
-import React from 'react';
 import '../../App.css';
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
+import {Link } from 'react-router-dom';
 
 const Cosmic = require('cosmicjs')
 const api = Cosmic()
@@ -29,15 +29,18 @@ export default function Blog() {
     <h1>blog</h1>
     </div>
   const posts = data.objects
-
   return (
     <div className="page">
-    <h1>blog</h1>
-    { posts.map(post => 
-      <div key={post.slug} style={{marginBottom: 20}}>
-        <div>{post.title}</div>
-      </div>)
-    }
+      <h1>blog</h1>
+      <div className="container">
+      {posts.map(post => (
+        <Link key={post.slug} to={`/blogs/${post.slug}`}  className="card">
+          <div>
+            <h3 style={{ margin: 10, fontSize: '25px', textDecoration: 'underline', fontWeight: 500 }}>{post.title}</h3>
+          </div>
+        </Link>
+      ))}
+      </div>
     </div>
   )
 }

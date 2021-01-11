@@ -7,6 +7,7 @@ import Video from './components/pages/Video';
 import Blog from './components/pages/Blog';
 import Contact from './components/pages/Contact';
 import About from './components/pages/About';
+import Post from './components/blog/post';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/jazwang'>
             <Redirect to='/home' />
           </Route>  
           <Route path='/home' component={Home} />
@@ -22,6 +23,7 @@ function App() {
           <Route path='/blog' component={Blog} />
           <Route path='/contact' component={Contact} />
           <Route path='/about' component={About} />
+          <Route path='/blogs/:id' component={Post} />
         </Switch>
     </Router>
     </div>
