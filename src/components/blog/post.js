@@ -1,6 +1,6 @@
 import '../../App.css';
 import {Link} from 'react-router-dom';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 const Cosmic = require('cosmicjs')
 const api = Cosmic()
@@ -44,7 +44,8 @@ export default class Post extends React.Component {
           </div>
           <div>
             <h2>{this.state.postTitle}</h2>
-            {this.state.postContent}
+            <br/>
+            <div style={{display: 'flex', justifyContent: 'center'}} dangerouslySetInnerHTML={{__html: this.state.postContent}} />
           </div>
       </div>
     )
