@@ -6,8 +6,8 @@ const Cosmic = require('cosmicjs')
 const api = Cosmic()
 // Set these values, found in Bucket > Settings after logging in at https://app.cosmicjs.com/login
 const bucket = api.bucket({
-  slug: 'jazwang',
-  read_key: 'Bpsj6iYWZw6MI9fjQCsgFtaXHvqBDP6bjuf12EMFh5CxaAZb2R'
+  slug: process.env.REACT_APP_SLUG,
+  read_key: process.env.REACT_APP_READ_KEY
 })
 
 export default function Blog() {

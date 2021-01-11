@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-size: calc(15px + 2vmin);
+  font-size: 25px;
   font-family: 'Jost', 'Oswald', sans-serif;
   color: #9b8884;
 }

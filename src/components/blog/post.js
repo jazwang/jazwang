@@ -1,13 +1,14 @@
 import '../../App.css';
 import {Link} from 'react-router-dom';
 import React from 'react';
+import ReactHtmlParser from 'react-html-parser';
 
 const Cosmic = require('cosmicjs')
 const api = Cosmic()
 // Set these values, found in Bucket > Settings after logging in at https://app.cosmicjs.com/login
 const bucket = api.bucket({
-  slug: 'jazwang',
-  read_key: 'Bpsj6iYWZw6MI9fjQCsgFtaXHvqBDP6bjuf12EMFh5CxaAZb2R'
+  slug: process.env.REACT_APP_SLUG,
+  read_key: process.env.REACT_APP_READ_KEY
 })
 
 export default class Post extends React.Component {
@@ -45,7 +46,11 @@ export default class Post extends React.Component {
           <div>
             <h2>{this.state.postTitle}</h2>
             <br/>
-            <div style={{display: 'flex', justifyContent: 'center'}} dangerouslySetInnerHTML={{__html: this.state.postContent}} />
+            <div style={{marginLeft: '20px', marginRight: '10px'}}>
+              <p>
+                {ReactHtmlParser(this.state.postContent)}
+              </p>
+            </div> 
           </div>
       </div>
     )
