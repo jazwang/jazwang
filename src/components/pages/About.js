@@ -29,6 +29,13 @@ export default function About() {
             <br/>
             <br/>
 
+            I also am addicted to Overcooked 2 on Switch (literally). I started playing in February 2020 and now 
+            I have spent over 400 hours on it.. It truly is a fun game tho! So if you see a parrot named
+            flufiSfynx in the arcade of OC2, don't hesitate to say hello or befriend me!
+
+            <br/>
+            <br/>
+
             Here I share my thoughts and projects, and, who knows what I will come up with!
 
             <br/>
